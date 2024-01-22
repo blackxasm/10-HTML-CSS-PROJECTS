@@ -1,0 +1,171 @@
+.navbar {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.menu span {
+    width: 2rem;
+    height: .1rem;
+    background-color: rgb(116, 116, 115);
+    padding: 2px 2px;
+}
+
+.sec_1 {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.title {
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title span {
+    color: white;
+    padding: 10px 20px;
+    background-color: rgb(24, 196, 24);
+}
+
+.title button {
+    background-color: rgba(255, 166, 0, 0.673);
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 20px 40px;
+}
+
+.title h2 {
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 4.5rem;
+}
+
+.title p {
+    font-weight: 400;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+.sec_2 {
+    padding: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge {
+    width: 20rem;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.info h4 {
+    margin: 0;
+    font-size: large;
+}
+
+.info p {
+    margin-top: 4px;
+    font-size: small;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 0;
+}
+
+.item7 {
+    position: relative;
+    bottom: 10rem;
+} 
+
+.heading {
+    padding: 80px;
+    text-align: center;
+}
+
+.heading span {
+    background-color: rgb(29, 201, 29);
+    padding: 10px 20px;
+    font-size: x-large;
+}
+
+.heading {
+    font-size: x-large;
+}
+
+ .break-out {
+    background-color:
+        grey;
+    height: 5px;
+}
+
+.footer {
+    background-color: rgb(236, 204, 143);
+    flex-wrap: wrap;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.title_footer {
+    font-weight: 600;
+    font-size: larger;
+     margin: 10px; 
+}
+
+@media (max-width:780px) {
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .sec_1 {
+        overflow: hidden;
+        display: block;
+        text-align: center;
+    }
+
+    .title {
+        margin-top: 2rem;
+        text-align: center;
+        padding: 0;
+    }
+
+    .title h2 {
+        font-size: 2rem;
+        margin: 0;
+    }
+    .sec_2 {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .grid{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer{
+        width: 100%;
+    }
+}
